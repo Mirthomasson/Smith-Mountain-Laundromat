@@ -10,10 +10,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          Smith Mountain Lake Laundromat
+          Smith Mountain Laundromat
         </HeroH1>
         <HeroP>
-          The best place to wash your dirty laundry.
+         The best place at Smith Mountain Lake to wash your dirty laundry.
         </HeroP>
       </HeroContent>
     </HeroContainer>
