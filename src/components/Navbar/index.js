@@ -1,13 +1,15 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
+import Logo from './FAVICONfloating.png';
+
 
 const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          SMITH
+          <img src={Logo} alt="logo" height="90" width="90"/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />
