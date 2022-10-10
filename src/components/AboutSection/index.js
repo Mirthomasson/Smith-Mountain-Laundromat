@@ -1,5 +1,5 @@
 import React from 'react';
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, } from './AboutElements';
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './AboutElements';
 
 const AboutSection = () => {
   return (
@@ -18,6 +18,9 @@ const AboutSection = () => {
                     </Column1>
                     <Column2>
                     </Column2>
+                    <ImgWrap>
+                    <Img />
+                    </ImgWrap>
                 </InfoRow>
             </InfoWrapper>
         </InfoContainer>
