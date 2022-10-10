@@ -85,7 +85,7 @@ export const NavLinks = styled(LinkS)`
 
     :hover {
         transition: 0.2s ease;
-        color: red;
+        color: #99DFF9;
     }
 
     &.active {

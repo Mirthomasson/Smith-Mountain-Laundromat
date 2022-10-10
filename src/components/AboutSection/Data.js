@@ -5,5 +5,11 @@ export const homeObjOne = {
     lightTextDesc: true,
     topline: 'Limited Bank',
     headline: 'more random text',
-    description: 'somthing about why you should wash your dirst shit here'
-}
+    description: 'somthing about why you should wash your dirty shit here',
+    imgStart: false,
+    img: require('../../images/washer.png'),
+    alt: 'washer',
+    dark: true,
+    primary: true,
+    darkText: false
+};
