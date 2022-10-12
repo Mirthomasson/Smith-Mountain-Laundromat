@@ -24,7 +24,7 @@ const HeroSection = (src, alt) => {
          The best place at Smith Mountain Lake to wash your dirty laundry.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
