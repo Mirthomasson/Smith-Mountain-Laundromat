@@ -21,10 +21,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to='location' onClick={toggle}>
                 Location
             </SidebarLink>
-        </SidebarMenu>
+
         <SideBtnWrap>
              <SidebarRoute to="/contact">Contact Us</SidebarRoute> 
         </SideBtnWrap>
+        </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
   );

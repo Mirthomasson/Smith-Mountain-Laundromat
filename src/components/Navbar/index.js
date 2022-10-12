@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/#">
+        <NavLogo to="/">
           <img src={Logo} alt="logo" height="90" width="90"/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
