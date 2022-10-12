@@ -4,6 +4,7 @@ import Home from './pages';
 import AboutSection from './components/AboutSection';
 import { homeObjFour } from './components/AboutSection/Data';
 import { AddressMap } from './components/MapSection';
+import Footer from './components/FooterSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <AboutSection {...homeObjFour} />
       <AddressMap />
+      <Footer />
     </Router>
   );
 }
