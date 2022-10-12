@@ -89,9 +89,36 @@ export const NavLinks = styled(LinkS)`
     }
 
     &.active {
-        border-bottom: 3px solid #01BF71;
+        border-bottom: 3px solid #99DFF9;
     }
 `;
 
+export const NavBtn = styled.nav`
+    display: flex;
+    align-items: center;
 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const NavBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: #99DFF9;
+    white-space: nowrap;
+    padding: 12px 30px;
+    color: #010606;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #000;
+    }
+`;
 

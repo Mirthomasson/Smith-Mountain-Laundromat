@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
 import Logo from './FAVICONfloating.png';
 
 
@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
+        <NavLogo to="/#">
           <img src={Logo} alt="logo" height="90" width="90"/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
@@ -36,6 +36,9 @@ const Navbar = ({ toggle }) => {
             </NavLinks>
           </NavItem>
         </NavMenu>
+        <NavBtn>
+          <NavBtnLink to="/contact">Contact Us</NavBtnLink>
+        </NavBtn>
       </NavbarContainer>
     </Nav>
   );
