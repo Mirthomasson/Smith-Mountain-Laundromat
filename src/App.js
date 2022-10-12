@@ -1,10 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './pages';
-import { homeObjFive } from './components/AboutSection/data';
-import Footer from './components/FooterSection';
-import ReviewSection from './components/Reviews/ReviewSection ';
 import { AddressMap } from './components/MapSection';
+import { homeObjFive } from './components/AboutSection/data';
+import ReviewSection from './components/Reviews/ReviewSection ';
+import Footer from './components/FooterSection';
+
+
 
 function App() {
   return (
