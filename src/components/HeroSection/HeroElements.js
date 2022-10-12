@@ -48,32 +48,38 @@ export const HeroContent = styled.div`
     z-index: 3;
     position: relative;
     padding: 8px 24px;
-    padding-top: 250px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 `;
 
-export const HeroH1 = styled.h1`
-    color: #fff;
-    font-size: 75px;
-    text-align: center;
-    font-family: 'Lobster', cursive;
+export const HeroLogo = styled.div`
+    display: flex;
+    align-self: center;
+    justify-self: center;
+`;
+
+export const Img = styled.img`
+    height: 100%;
+    width: 600px;
 
     @media screen and (max-width: 768px) {
-        font-size: 50px;
+        height: 100%;
+        width: 400px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 42px;
+        height: 100%;
+        width: 300px;
     }
 `;
 
 export const HeroP = styled.p`
-    margin-top: 24px;
+    margin-top: 15px;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     max-width: 600px;
 
@@ -102,3 +108,4 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
+
