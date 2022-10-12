@@ -4,7 +4,7 @@ import { TextWrapper, TopLine, Heading, Subtitle } from '../AboutSection/AboutEl
 
  const AddressMap = ({ topline, lightText, headline, darkText, description }) => {
     return (
-        <div class="root">
+        <div id="location" class="root">
           <div class="left">
                     <TextWrapper>
                         <TopLine>
