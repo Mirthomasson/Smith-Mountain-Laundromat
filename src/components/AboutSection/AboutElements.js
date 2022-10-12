@@ -92,13 +92,3 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
-
-export const MapContainer = styled.div`
-    width: 600px;
-    height: 450px;
-`
-
-export const MapInfo = styled.div`
-    width: 600px;
-    height: 450px;
-`

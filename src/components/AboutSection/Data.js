@@ -1,5 +1,4 @@
-import { FaBorderNone } from 'react-icons/fa';
-import { AddressMap } from '../MapSection';
+
 
 export const homeObjOne = {
     id: 'about',
@@ -57,6 +56,7 @@ export const homeObjFour = {
     topline: 'Location',
     headline: 'Come See Us!',
     description: 'Try out our top of the line equipment for your laundry needs.',
+    imgStart: false,
     dark: true,
     primary: true,
     darkText: true
