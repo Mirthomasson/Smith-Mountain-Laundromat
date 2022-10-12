@@ -1,0 +1,7 @@
+.google-map-code {
+    position: absolute;
+    bottom: -198em;
+    left: 52em;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

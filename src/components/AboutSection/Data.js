@@ -1,3 +1,6 @@
+import { FaBorderNone } from 'react-icons/fa';
+import { AddressMap } from '../MapSection';
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -47,14 +50,15 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
-    id: 'services',
+    id: 'location',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topline: 'Services',
-    headline: 'Multiple washers and dryers for your convenience.',
-    description: 'Payment options include bills and coins. ATM on site.',
+    topline: 'Location',
+    headline: 'Come See Us!',
+    description: 'Try out our top of the line equipment for your laundry needs.',
     dark: true,
     primary: true,
     darkText: true
 };
+
