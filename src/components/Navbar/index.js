@@ -15,9 +15,14 @@ const Navbar = ({ toggle }) => {
           <FaBars />
         </MobileIcon>
         <NavMenu>
-          <NavItem>
+        <NavItem>
             <NavLinks to="about">
-              About Us
+              About
+            </NavLinks>
+          </NavItem>
+        <NavItem>
+            <NavLinks to="services">
+              Services
             </NavLinks>
           </NavItem>
           <NavItem>

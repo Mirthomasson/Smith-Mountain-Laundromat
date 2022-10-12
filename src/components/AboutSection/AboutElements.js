@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({ lightBg }) => (lightBg ? 'lightgray' : '#010606')};
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
@@ -25,7 +25,6 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    justify-content: center;
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
     @media screen and (max-width: 768px) {
@@ -34,13 +33,13 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 15px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -53,7 +52,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: red;
+    color: #F01D27;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -63,12 +62,11 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    color: red;
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ?  '#f7f8a' : '010606')};
+    color: ${({ lightText }) => (lightText ?  '#f7f8a' : '#010606')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -80,16 +78,27 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18p;
     line-height: 24px;
-    // color: ${({darkText}) => (darkText ? '#010606' : "#fff")};
+    color: ${({darkText}) => (darkText ? '#114A9A' : '#99DFF9')};
 `;
 
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
-`
+`;
 
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+`;
+
+
+export const MapContainer = styled.div`
+    width: 600px;
+    height: 450px;
+`
+
+export const MapInfo = styled.div`
+    width: 600px;
+    height: 450px;
 `
