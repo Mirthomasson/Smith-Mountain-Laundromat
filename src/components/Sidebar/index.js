@@ -4,7 +4,11 @@ import { animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = ({ isOpen, toggle }) => {
   const toggleLocation = () => {
-    scroll.scrollTo(5200, 500)
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      scroll.scrollTo(5000, 500);
+    } else {
+      scroll.scrollTo(5200, 500);
+    }
   };
 
   return (
