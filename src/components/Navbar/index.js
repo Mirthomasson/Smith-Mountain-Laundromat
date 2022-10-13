@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
 import Logo from './FAVICONfloating.png';
+import { animateScroll as scroll } from 'react-scroll';
 
 
 
@@ -20,10 +21,14 @@ const Navbar = ({ toggle }) => {
     window.addEventListener('scroll', changeNav)
   }, []);
 
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  };
+
   return (
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
-        <NavLogo to="/">
+        <NavLogo to="/" onClick={toggleHome}>
           <img src={Logo} alt="logo" height="90" width="90"/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
@@ -31,27 +36,27 @@ const Navbar = ({ toggle }) => {
         </MobileIcon>
         <NavMenu>
         <NavItem>
-            <NavLinks to="about">
+            <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               About
             </NavLinks>
           </NavItem>
         <NavItem>
-            <NavLinks to="services">
+            <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Services
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="safety">
+            <NavLinks to="safety" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Safety
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="sanitation">
+            <NavLinks to="sanitation" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Sanitation
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="location">
+            <NavLinks to="location" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Location
             </NavLinks>
           </NavItem>
