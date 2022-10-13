@@ -17,7 +17,7 @@ const HeroSection = (src, alt) => {
         <VideoBg loop
           muted
           autoPlay
-          playsInline src={Video} type='video/mp4' />
+          playing width="100%" height="100%" src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
         <HeroLogo>
