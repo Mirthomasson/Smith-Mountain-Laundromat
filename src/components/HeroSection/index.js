@@ -4,7 +4,7 @@ import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroLogo, HeroP, HeroBtnWr
 import { Button } from '../ButtonElement';
 import  Logo  from '../../images/logo-shadow.png';
 
-const HeroSection = (src, alt) => {
+const HeroSection = () => {
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -17,7 +17,7 @@ const HeroSection = (src, alt) => {
         <VideoBg loop
           muted
           autoPlay
-          playing width="100%" height="100%" src={Video} type='video/mp4' />
+          playsInline src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
         <HeroLogo>
