@@ -1,7 +1,12 @@
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
+import { animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = ({ isOpen, toggle }) => {
+  const toggleLocation = () => {
+    scroll.scrollTo(5200, 500)
+  };
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -23,7 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
 
         <SideBtnWrap>
-             <SidebarRoute to="/contact">Contact Us</SidebarRoute> 
+             <SidebarRoute onClick={toggleLocation} to='location'>Contact Us</SidebarRoute> 
         </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>

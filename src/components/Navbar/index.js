@@ -25,6 +25,10 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop()
   };
 
+  const toggleLocation = () => {
+    scroll.scrollTo(4350, 500)
+  };
+
   return (
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
@@ -62,7 +66,7 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/contact">Contact Us</NavBtnLink>
+          <NavBtnLink onClick={toggleLocation} to="/" smooth={true} duration={500} spy={true} exact='true' >Contact Us</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>

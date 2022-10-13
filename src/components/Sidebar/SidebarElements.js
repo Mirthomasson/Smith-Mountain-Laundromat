@@ -58,6 +58,7 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 2em;
 
     &.hover {
         color: #01BF71;
