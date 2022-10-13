@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/AboutSection/data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/AboutSection/data.js';
 
 
 const Home = () => {
