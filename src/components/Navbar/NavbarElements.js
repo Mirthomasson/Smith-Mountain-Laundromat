@@ -84,7 +84,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
     transition: 0.2s ease;
 
-    :hover {
+    &:hover {
         transition: 0.2s ease;
         color: #99DFF9;
     }
