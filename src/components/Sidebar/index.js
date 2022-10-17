@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
 
         <SideBtnWrap>
-             <SidebarRoute onClick={toggleLocation} to='location'>Contact Us</SidebarRoute> 
+             <SidebarRoute onClick={toggleLocation} to='location'>Text Us</SidebarRoute> 
         </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>

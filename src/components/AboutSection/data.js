@@ -69,7 +69,7 @@ export const homeObjFive = {
     lightTextDesc: true,
     topline: 'Contact',
     headline: '(540) 521-6141',
-    description: 'Feel free to reach out to us concerning mechanical issues, questions, or how we can continue improving your experience.',
+    description: 'Feel free to text us concerning mechanical issues, questions, or how we can continue improving your experience. If it is an emergency give us a call.',
     imgStart: false,
     img: require('../../images/contact.png'),
     alt: 'washer',
