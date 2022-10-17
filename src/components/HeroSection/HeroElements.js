@@ -63,6 +63,7 @@ export const HeroLogo = styled.div`
     display: flex;
     align-self: center;
     justify-self: center;
+    margin-top: 8em;
 `;
 
 export const Img = styled.img`
@@ -72,18 +73,20 @@ export const Img = styled.img`
     @media screen and (max-width: 768px) {
         height: 100%;
         width: 400px;
+        margin-top: -3em;
     }
 
     @media screen and (max-width: 480px) {
         height: 100%;
         width: 300px;
+        margin-top: -.5em;
     }
 `;
 
 export const HeroP = styled.p`
-    margin-top: 15px;
+    margin-top: -1em;
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     max-width: 600px;
 
