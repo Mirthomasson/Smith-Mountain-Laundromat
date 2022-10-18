@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink onClick={toggleLocation} to="/" smooth={true} duration={500} spy={true} exact='true' >Message Us</NavBtnLink>
+          <NavBtnLink onClick={toggleLocation} to="/" smooth={true} duration={500} spy={true} exact='true' >(540) 521-6141</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>

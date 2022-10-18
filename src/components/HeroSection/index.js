@@ -22,7 +22,6 @@ const HeroSection = () => {
         </HeroLogo>
         <HeroP>
          The best place at Smith Mountain Lake to wash your dirty laundry. Come see us!
-         Questions or Concerns? (540) 521-6141
         </HeroP>
         <HeroBtnWrapper>
           <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
