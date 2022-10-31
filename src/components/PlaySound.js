@@ -15,6 +15,7 @@ const PlaySound = () => {
     right: 0%;
     border-radius: 17px 0 0 17px;
     padding: 0.5rem;
+    padding-right: 1rem;
     position: absolute;
     color: gray;
     font-size: 1rem;

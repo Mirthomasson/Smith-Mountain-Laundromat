@@ -100,7 +100,7 @@ export const HeroP = styled.p`
 `;
 
 export const HeroSpan = styled.p`
-    color: yellow;
+    color: #ccff02;
     font-size: 22px;
     font-weight: 700;
     text-align: center;
