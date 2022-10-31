@@ -27,7 +27,7 @@ const HeroSection = () => {
          <p>Come see us!</p>
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="sms:+5405216141" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+          <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Message Us {hover ? <ArrowForward /> : <ArrowRight />}
             <script>
               if (navigator.userAgent.match(/iPhone/i)) { 
