@@ -66,7 +66,16 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink onClick={toggleLocation} to="/" smooth={true} duration={500} spy={true} exact='true' >(540) 521-6141</NavBtnLink>
+          <NavBtnLink onClick={toggleLocation} to="/" smooth={true} duration={500} spy={true} exact='true' >
+            (540) 521-6141
+            </NavBtnLink>
+            {/* <script>
+              if(navigator.userAgent.match(/iPhone/i)) { 
+              window.open('sms://5405216141') 
+              } else if(navigator.userAgent.match(/Android/i)) {
+                window.open('sms://5405216141') 
+            };
+            </script> */}
         </NavBtn>
       </NavbarContainer>
     </Nav>
