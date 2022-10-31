@@ -30,10 +30,12 @@ const HeroSection = () => {
           <Button to="sms:+5405216141" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Message Us {hover ? <ArrowForward /> : <ArrowRight />}
             <script>
-          if(navigator.userAgent.match(/iPhone/i)) { 
-          window.open('sms://5405216141') 
-          };
-         </script>
+              if (navigator.userAgent.match(/iPhone/i)) { 
+               window.open('sms://5405216141') 
+              } else if (navigator.userAgent.match(/Android/i)) {
+                  window.open('sms://5405216141')
+              };
+            </script>
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

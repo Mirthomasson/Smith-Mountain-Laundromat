@@ -40,7 +40,7 @@ const PlaySound = () => {
       <Button onClick={handleSoundPlay}>Sound {OnOff}</Button>
       <Sound
         url={Music}
-        autoLoad="true"
+        // autoLoad="true"
         playStatus={SoundStatus}
         playFromPosition={0}
       />
