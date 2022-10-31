@@ -85,7 +85,7 @@ export const Img = styled.img`
 
 export const HeroP = styled.p`
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     max-width: 600px;
     margin-top: -.75em;
@@ -100,19 +100,19 @@ export const HeroP = styled.p`
 `;
 
 export const HeroSpan = styled.p`
-    color: #EF1520;
-    font-size: 20px;
+    color: yellow;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     max-width: 600px;
     margin-top: .5em;
 
     @media screen and (max-width: 768px) {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 14px;
+        font-size: 16px;
 `
 
 export const HeroBtnWrapper = styled.div`
