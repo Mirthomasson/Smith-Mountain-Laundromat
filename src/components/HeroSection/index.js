@@ -26,7 +26,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroLogo>
-          <Img src={Logo} alt="Logo"  />
+          <Img src={Logo} alt="Logo" />
         </HeroLogo>
         <HeroP>
          <p>The best place at</p>
