@@ -11,6 +11,14 @@ const HeroSection = () => {
     setHover(!hover)
   }
 
+  function message(e) {
+    e.preventDefault();
+    
+    if (navigator.userAgent.match(/(Android)/i|/(iPhone)/i)) {
+       window.open('sms://5405216141');
+    }
+  }
+
   return (
     <HeroContainer>
       <HeroBg>
@@ -27,15 +35,8 @@ const HeroSection = () => {
          <p>Come see us!</p>
         </HeroP>
         <HeroBtnWrapper>
-          <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+          <Button onClick={message} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Message Us {hover ? <ArrowForward /> : <ArrowRight />}
-            <script>
-              if (navigator.userAgent.match(/iPhone/i)) { 
-               window.open('sms://5405216141') 
-              } else if (navigator.userAgent.match(/Android/i)) {
-                  window.open('sms://5405216141')
-              };
-            </script>
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
