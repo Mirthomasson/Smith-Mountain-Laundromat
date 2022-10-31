@@ -84,18 +84,17 @@ export const Img = styled.img`
 `;
 
 export const HeroP = styled.p`
-    margin-top: -1em;
     color: #fff;
-    font-size: 24px;
+    font-size: 25px;
     text-align: center;
     max-width: 600px;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 13px;
     }
 `;
 
