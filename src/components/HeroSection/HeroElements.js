@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 950px;
+    height: 1050px;
     position: relative;
     z-index: 1;
 
@@ -52,7 +52,6 @@ export const HeroContent = styled.div`
     z-index: 3;
     position: relative;
     padding: 8px 24px;
-    margin-top: -100px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -100,6 +99,22 @@ export const HeroP = styled.p`
     }
 `;
 
+export const HeroSpan = styled.p`
+    color: #EF1520;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 600px;
+    margin-top: .5em;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 14px;
+`
+
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
@@ -116,4 +131,6 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
+
+
 

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/washywashy.mp4';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroLogo, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, Img } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroLogo, HeroP, HeroSpan, HeroBtnWrapper, ArrowForward, ArrowRight, Img } from './HeroElements';
 import { Button } from '../ButtonElement';
 import  Logo  from '../../images/logo-shadow.png';
 
@@ -34,6 +34,10 @@ const HeroSection = () => {
          <p>to wash your dirty laundry.</p>
          <p>Come see us!</p>
         </HeroP>
+        <HeroSpan>
+         <p>Open 7 days a week</p>
+         <p>6AM - 9PM</p>
+        </HeroSpan>
         <HeroBtnWrapper>
           <Button onClick={message} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Message Us {hover ? <ArrowForward /> : <ArrowRight />}
