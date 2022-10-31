@@ -52,7 +52,7 @@ export const HeroContent = styled.div`
     z-index: 3;
     position: relative;
     padding: 8px 24px;
-    margin-top: -80px;
+    margin-top: -100px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
