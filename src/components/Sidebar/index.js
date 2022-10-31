@@ -1,15 +1,15 @@
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 
 const Sidebar = ({ isOpen, toggle }) => {
-  const toggleLocation = () => {
-    if (window.matchMedia("(max-width: 768px)").matches) {
-      scroll.scrollTo(5000, 500);
-    } else {
-      scroll.scrollTo(5200, 500);
+  function message(e) {
+    e.preventDefault();
+    
+    if (navigator.userAgent.match(/(Android)/i|/(iPhone)/i)) {
+       window.open('sms://5405216141');
     }
-  };
+  }
 
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
 
         <SideBtnWrap>
-             <SidebarRoute onClick={toggleLocation} to='location'>Message Us</SidebarRoute> 
+             <SidebarRoute onClick={message} to='location'>Message Us</SidebarRoute> 
         </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>
