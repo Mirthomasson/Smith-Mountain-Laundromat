@@ -89,13 +89,14 @@ export const HeroP = styled.p`
     font-size: 25px;
     text-align: center;
     max-width: 600px;
+    margin-top: -.75em;
 
     @media screen and (max-width: 768px) {
         font-size: 20px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 13px;
+        font-size: 16px;
     }
 `;
 

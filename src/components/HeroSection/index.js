@@ -21,7 +21,10 @@ const HeroSection = () => {
           <Img src={Logo} alt="Logo"  />
         </HeroLogo>
         <HeroP>
-         The best place at Smith Mountain Lake to wash your dirty laundry. Come see us!
+         <p>The best place at</p>
+         <p>Smith Mountain Lake</p>
+         <p>to wash your dirty laundry.</p>
+         <p>Come see us!</p>
         </HeroP>
         <HeroBtnWrapper>
           <Button id="message" to="contact" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
