@@ -3,6 +3,7 @@ import Video from '../../videos/washywashy.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroLogo, HeroP, HeroSpan, HeroBtnWrapper, ArrowForward, ArrowRight, Img } from './HeroElements';
 import { Button } from '../ButtonElement';
 import  Logo  from '../../images/logo-shadow.png';
+import tagline from '../../images/TAGlineFLOATnonitalic.png';
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
@@ -29,10 +30,11 @@ const HeroSection = () => {
           <Img src={Logo} alt="Logo" />
         </HeroLogo>
         <HeroP>
-         <p>The best place at</p>
+          <Img src={tagline} alt="tagline" />
+         {/* <p>The best place at</p>
          <p>Smith Mountain Lake</p>
          <p>to wash your dirty laundry.</p>
-         <p>Come see us!</p>
+         <p>Come see us!</p> */}
         </HeroP>
         <HeroSpan>
          <p>Open 7 days a week</p>

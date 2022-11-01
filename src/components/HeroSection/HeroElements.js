@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1050px;
+    height: 950px;
     position: relative;
     z-index: 1;
 
@@ -65,13 +65,12 @@ export const HeroLogo = styled.div`
     display: flex;
     align-self: center;
     justify-self: center;
-    margin-top: 12em;
-    transform: scale(1.1);
+    margin-top: 11em;
 `;
 
 export const Img = styled.img`
     height: 100%;
-    width: 600px;
+    width: 500px;
 
     @media screen and (max-width: 768px) {
         height: 100%;
@@ -87,18 +86,14 @@ export const Img = styled.img`
 `;
 
 export const HeroP = styled.p`
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    margin-top: -.75em;
+    margin-top: -2.5em;
 
     @media screen and (max-width: 768px) {
-        font-size: 16px;
+        margin-top: 1em;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 14px;
+        margin-top: -.5em;
     }
 `;
 
@@ -108,7 +103,6 @@ export const HeroSpan = styled.p`
     font-weight: 700;
     text-align: center;
     max-width: 600px;
-    margin-top: .5em;
 
     @media screen and (max-width: 768px) {
         font-size: 18px;
@@ -119,7 +113,7 @@ export const HeroSpan = styled.p`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
