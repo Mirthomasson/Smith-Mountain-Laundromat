@@ -27,8 +27,6 @@
   gap: 1.5em;
   background-color: #010606;
   color: black;
-  width: 75%;
-  margin: 0 auto;
 }
 
 span.review-profile-image {
@@ -38,7 +36,6 @@ span.review-profile-image {
 
 span.review-profile-image img {
     width: 40px;
-    display: none;
 }
 
 .modal-backdrop.in{display:none;}
@@ -49,14 +46,6 @@ span.review-profile-image img {
     padding: 15px;
     border-radius: 10px;
     background-color: lightgray;
-}
- 
-@media ( max-width:1200px) {
-  .review-item { flex: 1 1 40%; }
-}
- 
-@media ( max-width:450px) {
-  .review-item { flex: 1 1 90%; }
 }
  
 .review-meta, .review-stars {text-align:left; font-size:115%;}
