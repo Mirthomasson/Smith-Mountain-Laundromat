@@ -4,7 +4,7 @@ import Home from './pages';
 import { AddressMap } from './components/MapSection';
 import { homeObjSix } from './components/AboutSection/data';
 import PlaySound from './components/PlaySound';
-import ReviewSection from './components/Reviews/ReviewSection ';
+import ReviewSection from './components/Reviews/ReviewSection';
 import Footer from './components/FooterSection';
 
 
