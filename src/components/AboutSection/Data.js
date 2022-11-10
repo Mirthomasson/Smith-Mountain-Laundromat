@@ -85,7 +85,7 @@ export const homeObjSix = {
     lightTextDesc: false,
     topline: 'Location',
     headline: 'Convenience',
-    description: 'Located at the intersection of rt 122 and Hendricks store Rd, we are smack dab in the middle of Moneta, making your visit fast and easy while out running errands or shopping.',
+    description: 'Located at the intersection of Rt 122 and Hendricks Store Rd, we are smack dab in the middle of Moneta, making your visit fast and easy while out running errands or shopping.',
     dark: false,
     primary: false,
     darkText: true
