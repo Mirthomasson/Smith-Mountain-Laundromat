@@ -123,10 +123,6 @@ export const NavBtnLink = styled(LinkR)`
         transition: 0.2s ease;
         color: #99DFF9;
     }
-
-    &.active {
-        border-bottom: 3px solid #99DFF9;
-    }
 `;
 
 export const Img = styled.img`
