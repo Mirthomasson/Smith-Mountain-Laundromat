@@ -127,4 +127,9 @@ export const NavBtnLink = styled(LinkR)`
 
 export const Img = styled.img`
     position: relative;
+
+    :hover {
+        transform: rotate(360deg);
+        transition: 0.5s ease;
+    }
 `;
