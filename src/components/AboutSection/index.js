@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './AboutElements';
 
 const AboutSection = ({lightBg, id, imgStart, topline, lightText, headline, darkText, description, img, alt}) => {
