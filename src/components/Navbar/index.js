@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Img } from './NavbarElements';
 import Logo from './FAVICONfloating.png';
 import { animateScroll as scroll } from 'react-scroll';
+import years from '../../images/32years.png';
 
 
 
@@ -74,6 +75,7 @@ const Navbar = ({ toggle }) => {
             (540) 521-6141
             </NavBtnLink>
         </NavBtn>
+        <Img src={years} alt="32 years" />
       </NavbarContainer>
     </Nav>
   );

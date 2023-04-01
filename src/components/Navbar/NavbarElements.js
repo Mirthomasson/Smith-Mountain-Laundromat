@@ -120,9 +120,15 @@ export const NavBtnLink = styled(LinkR)`
     text-decoration: none;
 
     &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #000;
+        transition: 0.2s ease;
+        color: #99DFF9;
+    }
+
+    &.active {
+        border-bottom: 3px solid #99DFF9;
     }
 `;
 
+export const Img = styled.img`
+    position: relative;
+`;
