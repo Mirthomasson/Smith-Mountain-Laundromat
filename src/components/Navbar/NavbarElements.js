@@ -132,4 +132,7 @@ export const Img = styled.img`
         transform: rotate(360deg);
         transition: 0.5s ease;
     }
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
