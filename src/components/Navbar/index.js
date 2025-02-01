@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Img } from './NavbarElements';
 import Logo from './FAVICONfloating.png';
 import { animateScroll as scroll } from 'react-scroll';
-import years from '../../images/32years.png';
+import wash from '../../images/SiteCenter.png';
 
 
 
@@ -80,7 +80,11 @@ const Navbar = ({ toggle }) => {
             (540) 521-6141
             </NavBtnLink>
         </NavBtn>
-        <Img src={years} alt="32 years" />
+        <NavBtn>
+          <NavBtnLink onClick={message} to="/" smooth={true} duration={500} spy={true} exact='true' >
+          <Img src={wash} alt="washandfold" />
+            </NavBtnLink>
+        </NavBtn>
       </NavbarContainer>
     </Nav>
   );
