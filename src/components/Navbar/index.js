@@ -65,6 +65,11 @@ const Navbar = ({ toggle }) => {
             </NavLinks>
           </NavItem>
           <NavItem>
+            <NavLinks to="washandfold" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+              Wash & Fold
+            </NavLinks>
+          </NavItem>
+          <NavItem>
             <NavLinks to="location" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Location
             </NavLinks>

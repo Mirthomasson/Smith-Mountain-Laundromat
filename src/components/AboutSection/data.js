@@ -80,12 +80,28 @@ export const homeObjFive = {
 
 export const homeObjSix = {
     id: 'location',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topline: 'Location',
     headline: 'Convenience',
     description: 'Located at the intersection of Rt 122 and Hendricks Store Rd, we are smack dab in the middle of Moneta, making your visit fast and easy while out running errands or shopping.',
+    dark: true,
+    primary: true,
+    darkText: true
+};
+
+export const homeObjSeven = {
+    id: 'washandfold',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topline: 'Wash and Fold',
+    headline: 'Laundry Service',
+    description: 'Drop off | Overnight | Pick-up Service',
+    imgStart: true,
+    img: require('../../images/SiteCenter.png'),
+    alt: 'washandfold',
     dark: false,
     primary: false,
     darkText: true

@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     margin-top: -80px;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     top: 0; 
     z-index: 10;
@@ -108,10 +108,10 @@ export const NavBtnLink = styled(LinkR)`
     // background: #99DFF9;
     white-space: nowrap;
     padding: 10px 28px;
-    margin-left: -3em;
+    margin-left: -1.5em;
     // color: #010606;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Lobster', cursive;
     outline: none;
     border: none;
