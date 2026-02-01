@@ -1,9 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Img } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
 import Logo from './FAVICONfloating.png';
 import { animateScroll as scroll } from 'react-scroll';
-import wash from '../../images/SiteCenter.png';
 
 
 
@@ -65,11 +64,6 @@ const Navbar = ({ toggle }) => {
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="washandfold" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-              Wash & Fold
-            </NavLinks>
-          </NavItem>
-          <NavItem>
             <NavLinks to="location" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Location
             </NavLinks>
@@ -78,11 +72,6 @@ const Navbar = ({ toggle }) => {
         <NavBtn>
           <NavBtnLink onClick={message} to="/" smooth={true} duration={500} spy={true} exact='true' >
             (540) 521-6141
-            </NavBtnLink>
-        </NavBtn>
-        <NavBtn>
-          <NavBtnLink onClick={message} to="/" smooth={true} duration={500} spy={true} exact='true' >
-          <Img src={wash} alt="washandfold" />
             </NavBtnLink>
         </NavBtn>
       </NavbarContainer>

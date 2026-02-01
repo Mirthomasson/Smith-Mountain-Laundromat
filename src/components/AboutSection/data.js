@@ -91,19 +91,3 @@ export const homeObjSix = {
     darkText: true
 };
 
-export const homeObjSeven = {
-    id: 'washandfold',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topline: 'Wash and Fold',
-    headline: 'Laundry Service',
-    description: 'Drop off | Overnight | Pick-up Service',
-    imgStart: true,
-    img: require('../../images/SiteCenter.png'),
-    alt: 'washandfold',
-    dark: false,
-    primary: false,
-    darkText: true
-};
-
